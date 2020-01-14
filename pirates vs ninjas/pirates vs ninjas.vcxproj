@@ -127,6 +127,7 @@
     <ClCompile Include="Gamedriver.cpp" />
     <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Ninjas.cpp" />
+    <ClCompile Include="NVP.cpp" />
     <ClCompile Include="Pirates.cpp" />
   </ItemGroup>
   <ItemGroup>

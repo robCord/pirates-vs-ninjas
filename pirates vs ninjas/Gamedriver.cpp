@@ -7,8 +7,4 @@ void GameDriver::DisplayIntro()
 	std::cout << "\nWelcome to an adventure of a game the relates the endless bloodthirsty war of pirates and ninjas\n\n";
 }
 
-void GameDriver::DisplayCharacterStats()
-{
-	
-}
 

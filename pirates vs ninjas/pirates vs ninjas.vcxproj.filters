@@ -30,6 +30,9 @@
     <ClCompile Include="Pirates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NVP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gamedriver.h">
