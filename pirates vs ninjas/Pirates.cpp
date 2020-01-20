@@ -1,4 +1,5 @@
 #include "Pirates.h"
+#include "Character.h"
 #include <iostream>
 
 void Pirates::UseSword()
@@ -11,3 +12,6 @@ Pirates::Pirates()
 	std::cout << "\nThis Pirate has washed up on shore, ready to fight!\n";
 }
 
+void Pirates::help() {
+	std::cout << "This is Pirate help! Trying swinging the sword!\n";
+}

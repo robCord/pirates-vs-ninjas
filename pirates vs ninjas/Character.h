@@ -1,7 +1,7 @@
 #pragma once
 #include "GameStructure.h"
 #include <string>
-
+//header file sets functions for use in other files 
 class Character : public GameStructure
 {
 public:

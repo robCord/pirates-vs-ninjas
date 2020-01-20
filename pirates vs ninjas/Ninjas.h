@@ -4,6 +4,7 @@ class Ninjas :
 	public Character
 {
 public:
+	//sets function for use in other files 
 	Ninjas();
 	void ThrowStars();
 	int Attack() override;

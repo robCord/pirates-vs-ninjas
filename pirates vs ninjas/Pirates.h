@@ -4,8 +4,10 @@ class Pirates :
 	public Character
 {
 public:
-	void UseSword();
+
 	Pirates();
+	void UseSword();
+	void help() override;
 private:
 };
 

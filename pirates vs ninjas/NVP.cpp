@@ -29,7 +29,7 @@ int main()
 	//make ninja talk
 	black_clothes_ninjas.Talk("Ninjas are the superior warrior!");
 	black_clothes_ninjas.Talk("Ninjas are the superior warrior!", black_clothes_ninjas.Name);
-	//calling help for info
+	//calling help for info ninja 
 	black_clothes_ninjas.help();
 
 	//character code
@@ -52,6 +52,8 @@ int main()
 	//make pirates talk
 	brown_coat_pirates.Talk("Pirates are the top dogs here!");
 	brown_coat_pirates.Talk("Pirates are the top dogs here!", brown_coat_pirates.Name);
-	
+	//calling help for pirates
+	brown_coat_pirates.help();
+		
 	return 0;
 }

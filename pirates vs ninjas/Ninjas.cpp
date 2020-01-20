@@ -14,13 +14,13 @@ int Ninjas::Attack()
 	return 25;
 	
 }
-
+//ninja uses help function to display text exclusive to ninja 
 void Ninjas::help()
 {
 	std::cout << "\nThis is Ninja help! Try throwing your ninja stars!\n";
 }
 
-
+//declares ninja and displays text for ninja 
 Ninjas::Ninjas()
 {
 	std::cout << "\nThis Ninja has finished its training from the constructor!\n";

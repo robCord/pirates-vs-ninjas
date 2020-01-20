@@ -21,17 +21,18 @@ void Character::setHealth(int health)
 	
 	Health = health;
 }
+//display current character health 
 void Character::DisplayCharacterStats()
 {
 	std::cout << Name << " Has health has a current health of " << GetHealth() << std::endl;
 	
 }
-
+//character uses talk method to display text 
 void Character::Talk(std::string stuffToSay)
 {
 	std::cout << "\nOur character says: " << stuffToSay << std::endl;
 }
-
+//character uses talk method and string name to display text and name set earlier 
 void Character::Talk(std::string stuffToSay, std::string name)
 {
 	std::cout << std::endl << name << ", says: " << stuffToSay << std::endl;
@@ -41,7 +42,7 @@ int Character::Attack()
 {
 	return 10;
 }
-
+//help is used to display text 
 void Character::help()
 {
 	std::cout << "\nThis is NPC help\n";
